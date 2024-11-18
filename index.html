@@ -9,8 +9,8 @@
 <body>
     <section class="section">
         <div class="left-container">
-            <div class="logo"></div>
-            <div class="image-credits"></div>
+            <div class="logo"><img width="60px" src="odin-lined.png"><p>ODIN</p></div>
+            <p class="image-credits">Image source: <a href="https://unsplash.com/photos/a-forest-filled-with-lots-of-tall-trees-6VJPVms4kmk" target="_blank">Brice Cooper on Unsplash</a></p>
         </div>
         <div class="right-container">
             <p class="main-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
@@ -19,16 +19,16 @@
                 <div class="white-background">
                     <p>Let's do this!</p>
                     <div class="row">
-                        <label for="first">First Name</label><input type="text" id="first" name="first">
-                        <label for="last">Last Name</label><input type="text" id="last" name="last">
+                        <label for="first">First Name <input type="text" id="first" name="first"></label>
+                        <label for="last">Last Name <input type="text" id="last" name="last"></label>
                     </div>
                     <div class="row">
-                        <label for="email">Email</label><input type="email" id="email" name="email">
-                        <label for="phone">Phone Number</label><input type="tel" id="phone" name="phone">
+                        <label for="email">Email <input type="email" id="email" name="email"></label>
+                        <label for="phone">Phone Number <input type="tel" id="phone" name="phone"></label>
                     </div>
                     <div class="row">
-                        <label for="password">Password</label><input type="password" id="password" name="password">
-                        <label for="confirmpass">Confirm Password</label><input type="password" id="confirmpass" name="confirmpass">
+                        <label for="password">Password <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></label>
+                        <label for="confirmpass">Confirm Password <input type="password" id="confirmpass" name="confirmpass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></label>
                     </div>
                 </div>
                 <button type="submit">Create Account</button>
